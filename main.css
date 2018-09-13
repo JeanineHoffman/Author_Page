@@ -1,3 +1,35 @@
-<style>
-{background color: #C0C0C0;}
-</style>
+/*main.css*/
+
+html, body {
+    background-color: rgb(181, 189, 192);
+    font-family: "open-dyslexic", sans-serif;
+    font-size: 18px;
+}
+
+nav {
+    margin-left: 5em;
+}
+
+article {
+    
+    line-height: 2.0;
+    text-align: justify;
+    margin-left: 15px;
+    padding-top: 2rem
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(31, 31, 116);
+    color: aliceblue;
+}
+
+figure {
+    border: 6px solid rgb(42, 42, 129);
+    width: 370px;
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 0px;
+}
+
