@@ -1,4 +1,12 @@
 /*main.css*/
+* {
+    box-sizing: border-box;
+    font-family: "open-dyslexic", sans-serif;
+    font-size: 18px;
+    font-size-adjust: inherit;
+    margin: 0;
+    background-color: rgb(181, 189, 192);
+  }
 
 html, body {
     background-color: rgb(181, 189, 192);
@@ -7,9 +15,28 @@ html, body {
 }
 
 nav {
-    margin-left: 5em;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    }
+.navbar {
+    padding-left: 25px;
 }
 
+nav a {
+    color: darkblue;
+    text-decoration: none;
+    padding: 20px;
+  }
+
+  a:hover {
+    color:darkblue;
+    background-color: #fff;
+  }
+  
+  
 article {
     
     line-height: 2.0;
